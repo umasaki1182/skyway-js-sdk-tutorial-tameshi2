@@ -42,9 +42,6 @@ function setupCallEventHandlers(call){
 
     existingCall = call;
 
-    call.on('stream', function(stream){
-        $('#their-id').text(call.remoteId);
-    });
     call.on('close', function(){
     });
 }
