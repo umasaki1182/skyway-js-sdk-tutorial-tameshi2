@@ -4,7 +4,7 @@ let peer = null;
 let existingCall = null;
 
 peer = new Peer({
-    key: 'ad8bf632-34e6-413a-8134-ba112c584b75',
+    key: 'dac55d92-613e-4565-a476-72c338ff8759',
     debug: 3
 });
 
