@@ -4,20 +4,12 @@ let peer = null;
 let existingCall = null;
 
 peer = new Peer({
-    key: 'dac55d92-613e-4565-a476-72c338ff8759',
+    key: 'ad8bf632-34e6-413a-8134-ba112c584b75',
     debug: 3
 });
 
-peer.on('open', function(){
-});
-peer.on('call', function(call){
-});
 peer.on('error', function(err){
     alert(err.message);
-});
-peer.on('close', function(){
-});
-peer.on('disconnected', function(){
 });
 
 $('#make-call').submit(function(e){
